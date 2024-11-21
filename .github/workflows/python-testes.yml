@@ -56,7 +56,7 @@ jobs:
         with:
           projectBaseDir: .  # Diretório do projeto
           args: >
-            -Dsonar.organization=laraguilar-github
+            -Dsonar.organization=laraguilar
             -Dsonar.projectKey=laraguilar_calculovolume
             -Dsonar.python.coverage.reportPaths=coverage.xml
             -Dsonar.sources=.
